@@ -300,7 +300,7 @@ body{
 		transition: 1s;
 	}
 
-/*	button custom animmate for main content*/
+/*	button custom animate for main content*/
 /*	btn for product*/
 	.btn-custom-product{
 		font-size: 20px;
@@ -323,7 +323,80 @@ body{
 		box-shadow: 0px 3px 10px 1px #00AEFF;
 	}
 	.btn-custom-product::after{
-		content: 'GO CHECK OUT IT';
+		content: ' GO CHECK OUT IT';
+	}
+	/*	btn for product buy via whatsApp*/
+	.btn-custom-product-wa{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(71, 237, 107, 0.8);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-product-wa:hover{
+		width: 320px;
+		color: #000;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-product-wa::after{
+		content: ' GO CHECK OUT VIA WA';
+		color: #000;
+	}
+	/*	btn for product buy via Itemku*/
+	.btn-custom-product-itemku{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-product-itemku:hover{
+		width: 360px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-product-itemku::after{
+		content: ' GO CHECK OUT VIA Itemku';
+	}
+	/*	btn for product buy via Shopee*/
+	.btn-custom-product-shopee{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(245, 176, 16, 0.8);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-product-shopee:hover{
+		width: 360px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-product-shopee::after{
+		content: ' GO CHECK OUT VIA Shopee';
 	}
 /*	btn for news*/
 	.btn-custom-news{
