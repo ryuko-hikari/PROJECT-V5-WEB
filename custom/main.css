@@ -1,0 +1,479 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #20262E;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #20262E;
+	font-family: 'Verdana';
+	scroll-behavior: smooth;
+}
+
+/*responsive design for mobile or small device*/
+	@media only screen and (max-width: 600px){
+	html{
+		margin: 0;
+		padding: 0;
+	}	
+
+/*	header section responsive*/
+	.text-support{
+		width: 50%;
+		margin: 0px;
+	}
+/*	end header section responsive*/
+
+/*	content section responsive*/
+	.content{
+		width: 100%;
+		height: 120rem;
+		background-color: rgba(24, 128, 245, 0.35);
+		background-image: unset;
+	}
+	.content:hover{
+		background-image: unset;
+	}
+	/*	update, diskon and chat customer section section*/
+	.bg-content-custom-1{
+		width: 100%;
+		height: 100%;
+	}
+	.link-custom{
+		color: #fff;
+		text-decoration: none;
+		margin-left: -20px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+/*	update, diskon and chat customer section end*/
+
+	/*	main content*/
+	.bg-content-custom-2{
+		height: 100%;
+		min-height: auto;
+		overflow-y: unset;
+		overflow-x: unset;
+	}
+/*	end content section resposive*/
+
+/*	footer section responsive*/
+	.footer{
+		width: 100%;
+		height: auto;
+	}
+	.email-text-custom{
+		font-size: 1rem;
+	}
+	.custom-copyright{
+		font-size: 4vw;
+		text-align: center;
+	}
+}
+/*	end footer section responsive*/
+/*end responsive design for mobile or small device*/
+
+
+
+/*responsive design for tablet or ipad*/
+	@media only screen and (min-width: 768px){
+	html{
+		margin: 0;
+		padding: 0;
+	}	
+
+/*	header section responsive*/
+	.header{
+		width: 100%;
+	}
+	.text-support{
+		width: 50%;
+		margin: 0px;
+	}
+/*	end header section responsive*/
+
+/*	content section responsive*/
+	.content{
+		width: 100%;
+		height: 1800px;
+		min-height: 4500px;
+	}
+	.content:hover{
+		background-image: unset;
+	}
+	/*	update, diskon and chat customer section section*/
+	.bg-content-custom-1{
+		width: 100%;
+		height: 100%;
+	}
+	.link-custom{
+		color: #fff;
+		text-decoration: none;
+		margin-left: -20px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+/*	update, diskon and chat customer section end*/
+
+	/*	main content*/
+	.bg-content-custom-2{
+		height: 100%;
+		min-height: auto;
+		overflow-y: unset;
+		overflow-x: unset;
+	}
+/*	end content section resposive*/
+
+/*	footer section responsive*/
+	.footer{
+		width: 100%;
+		height: auto;
+	}
+	.email-text-custom{
+		font-size: 13px;
+	}
+	.custom-copyright{
+		font-size: 30px;
+		text-align: center;
+	}
+}
+/*	end footer section responsive*/
+/*end responsive design for tablet or ipad*/
+
+/*large device laptop or desktop*/
+	@media only screen and (min-width: 992px){
+	.content{
+		width: 100%;
+		height: auto;
+	}
+	.footer{
+		width: 100%;
+	}
+	.email-text-custom{
+		font-size: 13px;
+	}
+}
+/*end large device laptop or desktop*/
+
+
+/* @media only screen and (min-width: 1440px){*/
+/*header section*/
+	.header{
+		width: 100%;
+		height: auto;	
+	}
+	.icon-nav{
+		width: 50px;
+	}
+	.custom-nav{
+		color: #fff;
+		font-size: 20px;
+		margin: 1px 5px;
+		transition: 1s;
+		transform: scale(1.0);
+	}
+	.custom-nav:hover{
+		transition: 1s;
+		transform: scale(1.1);
+	}
+	.text-support{
+		width: 100%;
+		color: #fff;
+		background-color: #fff;
+		border-radius: 20px;
+		box-shadow: 2px 2px 10px 0px #F3BA09;
+	}
+	.slider-header{
+		width: 100%;
+		height: auto;
+		background-color: #000;
+	}
+
+/*content section*/
+	.content{
+		width: 100%;
+		min-height: 1390px;
+		background-color: rgba(39, 41, 245, 0.8);
+		margin: 0;
+		padding: 0;
+		transition: 0.8s;
+	}
+	.content:hover{
+		background-color: rgba(14, 17, 237, 0.8);
+		transition: 0.8s;
+	}
+
+/*	update, diskon and chat customer section section*/
+	.bg-content-custom-1{
+		width: 100%;
+		height: 100%;
+		font-family: 'Verdana';
+		background: rgba(75, 75, 75, 0.87);
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.bg-content-custom-1:hover{
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.link-custom{
+		color: #fff;
+		text-decoration: none;
+		margin-left: -20px;
+		margin-top: 10px;
+		padding: 5px;
+		transition: 1s;
+	}
+	.link-custom:hover{
+		background-color: #181823;
+		color: #fff;
+		transform: scale(1.1);
+		transition: 1s;
+	}
+	.chat-custom{
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.chat-custom:hover{
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+		transition: 1s;
+	}
+/*	update, diskon and chat customer section end*/
+
+/*	main content*/
+	.bg-content-custom-2{
+		font-family: 'Verdana';
+		height: 1220px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		background: rgba(255, 250, 253, 0.8);
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.bg-content-custom-2:hover{
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	
+/*	product section*/
+	.product-link{
+		width: 15%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		text-decoration: none;
+		color: red;
+		box-shadow: 2px -1px 10px 2px #FFD98E;
+	}
+	.card-custom{
+		box-shadow: 0px 3px 5px 1px #000;
+		transition: 1s;
+		transform: scale(0.95);
+	}
+	.card-custom:hover{
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+		transform: scale(1.0);
+		transition: 1s;
+		cursor: pointer;
+	}
+
+/*	slider custom */
+	.slider-custom{
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.slider-custom:hover{
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+		transition: 1s;
+	}
+
+/*	learning custom*/
+	.learning-custom{
+		box-shadow: 0px 3px 10px 1px #000;
+		transform: scale(0.98);
+		transition: 1s;
+	}
+	.learning-custom:hover{
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+		transform: scale(1.0);
+		transition: 1s;
+	}
+
+/*	button custom animmate for main content*/
+/*	btn for product*/
+	.btn-custom-product{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-product:hover{
+		width: 250px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-product::after{
+		content: 'GO CHECK OUT IT';
+	}
+/*	btn for news*/
+	.btn-custom-news{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-news:hover{
+		width: 300px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-news::after{
+		content: 'BACA SELENGKAPNYA';
+	}
+/*	btn for gameplay*/
+	.btn-custom-gameplay{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-gameplay:hover{
+		width: 300px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-gameplay::after{
+		content: 'GO WATCH GAMEPLAY';
+	}
+/*	btn for tutorial*/
+	.btn-custom-tutorial{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-tutorial:hover{
+		width: 300px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-tutorial::after{
+		content: 'GO WATCH TUTORIAL';
+	}
+/*	btn for e-learning*/
+	.btn-custom-learning{
+		font-size: 20px;
+		display: inline-block;
+		width: 50px;
+		white-space: nowrap;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		background-color: rgba(21, 77, 255, 1);
+		color: #fff;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 1px #000;
+		transition: 1s;
+	}
+	.btn-custom-learning:hover{
+		width: 170px;
+		color: #fff;
+		transition: 1s;
+		box-shadow: 0px 3px 10px 1px #00AEFF;
+	}
+	.btn-custom-learning::after{
+		content: 'GO LEARN';
+	}
+
+/*footer section */
+	.footer{
+		width: 100%;
+		height: 310px;
+		background-color: #20262E;
+	}
+	.footer-icon{
+		width: 50px;
+	}
+	.list-sosmed-custom{
+		display: flex;
+		font-size: large;
+		padding: 0px;
+		margin: 0px;
+		transition: 1s;
+		color: #fff;
+		text-decoration: none;
+	}
+	.list-sosmed-custom:hover{
+		transition: 1s;
+		transform: scale(1.1);
+	}
+	.email-text-custom{
+		color: #fff;
+		font-size: 15px;
+	}
+	.fa-custom-yt{
+		color: rgba(255, 45, 69, 0.8);
+	}
+	.fa-custom-ig{
+		color: rgba(203, 69, 255, 0.8);
+	}
+	.icon-payment-custom{
+		width: 50px;
+		background-color: #fff;
+		margin: 3px;
+		box-shadow: 0px 1px 5px 1px #fff;
+		cursor: pointer;
+		transition: 1s;
+	}
+	.icon-payment-custom:hover{
+		box-shadow: 0px 1px 5px 1px #00AEFF;
+		transition: 1s;
+		transform: scale(1.1);
+	}
+	.horizontal-footer{
+		color: white; 
+		width: 70%;
+		text-align: center; 
+		margin: auto; 
+		height: 3px;
+	}
+	.custom-copyright{
+		font-size: 20px;
+	}
