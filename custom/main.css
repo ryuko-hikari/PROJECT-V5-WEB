@@ -29,11 +29,11 @@ body{
 	.content{
 		width: 100%;
 		height: 120rem;
-		background-color: rgba(24, 128, 245, 0.35);
-		background-image: unset;
+		background-position: center;
+		transition: 0.8s;
 	}
 	.content:hover{
-		background-image: unset;
+		transition: 0.8s;
 	}
 	/*	update, diskon and chat customer section section*/
 	.bg-content-custom-1{
@@ -98,9 +98,11 @@ body{
 		width: 100%;
 		height: 1800px;
 		min-height: 4500px;
+		background-position: center;
+		transition: 0.8s;
 	}
 	.content:hover{
-		background-image: unset;
+		transition: 0.8s;
 	}
 	/*	update, diskon and chat customer section section*/
 	.bg-content-custom-1{
@@ -146,6 +148,8 @@ body{
 	.content{
 		width: 100%;
 		height: auto;
+		background-image: url('../Assets/icon-bg-none.png');
+		background-size: 100% 100%;
 	}
 	.footer{
 		width: 100%;
@@ -157,7 +161,6 @@ body{
 /*end large device laptop or desktop*/
 
 
-/* @media only screen and (min-width: 1440px){*/
 /*header section*/
 	.header{
 		width: 100%;
@@ -195,12 +198,18 @@ body{
 		width: 100%;
 		min-height: 1390px;
 		background-color: rgba(39, 41, 245, 0.8);
+		background-image: url('../Assets/icon-bg.png');
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: center;
 		margin: 0;
 		padding: 0;
 		transition: 0.8s;
 	}
 	.content:hover{
 		background-color: rgba(14, 17, 237, 0.8);
+		background-image: url('../Assets/icon-bg-hover.png');
+		background-size: auto;
 		transition: 0.8s;
 	}
 

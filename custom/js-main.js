@@ -1,3 +1,4 @@
+//dibawah ini adalah code untuk seluruh page
 var ver = ["Ini adalah versi", 5];
 console.log(ver[0]  + ' ' + ver[1]);
 
@@ -27,7 +28,7 @@ document.onkeydown = function (e) {
 }
 
 
-//Dibawah ini adalah Datalist Produk
+//Dibawah ini adalah Datalist Produk pada page produk
 //Stock Unit GooglePlay Card
 var textUnitGpc = document.getElementsByClassName("text-unit-gpc");
 	textUnitGpc[0].innerHTML = "Stok Unit : kosong";
