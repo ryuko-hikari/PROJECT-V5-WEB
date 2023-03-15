@@ -21,11 +21,11 @@ let yearCopy = yearNow.getFullYear();
 	document.getElementById("year-footer").innerHTML = yearCopy;
 
 //disable f12
-document.onkeydown = function (e) {
-	if(e.keyCode == 123){
-		return false;
-	}
-}
+// document.onkeydown = function (e) {
+// 	if(e.keyCode == 123){
+// 		return false;
+// 	}
+// }
 
 
 //Dibawah ini adalah Datalist Produk pada page produk
@@ -87,4 +87,10 @@ var btnProduktif = document.getElementsByClassName("btn-produktif");
 	// btnProduktivitas[2].innerHTML = "";
 	// btnProduktivitas[2].style.fontSize = "23px";	
 	// btnProduktivitas[3].innerHTML = "";
-	// btnProduktivitas[3].style.fontSize = "23px";	
+	// btnProduktivitas[3].style.fontSize = "23px";
+
+
+//Alert Development for list gameplay
+	function btnAlert(){
+		alert("Masih Tahap Development >_<");
+	} 

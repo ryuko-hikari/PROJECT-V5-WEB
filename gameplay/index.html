@@ -20,7 +20,7 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body oncontextmenu="return false;">
+<body oncontextmenu="return true;">
 	<!-- header -->
 	<div class="header container-lg-fluid bg-primary">
 
@@ -35,9 +35,9 @@
 					<ul class="navbar-nav p-2 m-1">
 						<li class="nav-item"><a class="nav-link text-light custom-nav" href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
 						<li class="nav-item"><a class="nav-link text-light custom-nav" href="../product/index.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Product</a></li>
-						<li class="nav-item"><a class="nav-link text-light custom-nav" href="#"><i class="fa-solid fa-newspaper"></i> News</a></li>
+						<li class="nav-item"><a class="nav-link text-light custom-nav" href="#" onclick="btnAlert()"><i class="fa-solid fa-newspaper"></i> News</a></li>
 						<li class="nav-item"><a class="nav-link text-warning custom-nav" href="#Gameplay"><i class="fa-solid fa-gamepad"></i> Gameplay</a></li>
-						<li class="nav-item"><a class="nav-link text-light custom-nav" href="#"><i class="fa-solid fa-scissors"></i> Tutorial</a></li>
+						<li class="nav-item"><a class="nav-link text-light custom-nav" href="#" onclick="btnAlert()"><i class="fa-solid fa-scissors"></i> Tutorial</a></li>
 						<li class="nav-item"><a class="nav-link text-light custom-nav" href="https://e-learning.ryukonetworkcenter.my.id/e-learning/" target="_blank"><i class="fa-solid fa-book"></i> Learning</a></li>
 						<li class="nav-item"><a class="nav-link text-light custom-nav" href="#About"><i class="fa-solid fa-address-card"></i> About</a></li>
 					</ul>
@@ -162,6 +162,7 @@
 								<div class="card-body">
 									<h5 class="card-title fw-bold">GAMEPLAY EXAMPLE RPG <i class="fa-solid fa-gamepad"></i></h5>
 									<p class="card-text">Example Gameplay Rpg</p>
+									<a class="btn btn-outline-primary fw-bold" href="#RPG">GO TO GAMEPLAY RPG <i class="fa-solid fa-circle-down"></i></a>
 								</div>
 							</div>
 						</div>
@@ -171,6 +172,7 @@
 								<div class="card-body">
 									<h5 class="card-title fw-bold">GAMEPLAY EXAMPLE - FPS <i class="fa-solid fa-gun"></i></h5>
 									<p class="card-text">Example Gameplay Fps</p>
+									<a class="btn btn-outline-primary fw-bold" href="#FPS">GO TO GAMEPLAY FPS <i class="fa-solid fa-circle-down"></i></a>
 								</div>
 							</div>
 						</div>
@@ -180,12 +182,12 @@
 								<div class="card-body">
 									<h5 class="card-title fw-bold">GAMEPLAY EXAMPLE - MOBA <i class="fa-solid fa-gamepad"></i></h5>
 									<p class="card-text">Example Gameplay Moba</p>
+									<a class="btn btn-outline-primary fw-bold" href="#MOBA">GO TO GAMEPLAY MOBA <i class="fa-solid fa-circle-down"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-					<a href="#" class="fw-bold btn-custom-gameplay"><i class="fa-solid fa-diamond-turn-right"></i> </a>
 				</div>	
 				<!-- gameplay section end -->
 
@@ -260,6 +262,7 @@
 							</div>
 						</div>
 					</div>
+					<a class="btn btn-outline-primary fw-bold mt-3 d-block mx-auto w-50 fs-5" onclick="btnAlert()" href="#"><i class="fa-solid fa-list"></i> LIST GAMEPLAY RPG</a>
 				</div>
 				<!-- end gameplay rpg section  -->
 
@@ -334,6 +337,7 @@
 							</div>
 						</div>
 					</div>
+					<a class="btn btn-outline-primary fw-bold mt-3 d-block mx-auto w-50 fs-5" onclick="btnAlert()" href="#"><i class="fa-solid fa-list"></i> LIST GAMEPLAY FPS</a>
 				</div>
 				<!-- end gameplay fps section -->
 
@@ -408,6 +412,7 @@
 							</div>
 						</div>
 					</div>
+					<a class="btn btn-outline-primary fw-bold mt-3 d-block mx-auto w-50 fs-5" onclick="btnAlert()" href="#"><i class="fa-solid fa-list"></i> LIST GAMEPLAY MOBA</a>
 				</div>
 				<!-- end gameplay moba section  -->
 
