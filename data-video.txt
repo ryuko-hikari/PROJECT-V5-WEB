@@ -1,3 +1,4 @@
+DIBAWAH INI ADALAH PLAYLIST SAMPLE NICK GAMES
 INTRO - CHANNEL 
 https://www.youtube.com/embed/AJl5F5MzkXs
 
@@ -39,3 +40,29 @@ https://www.youtube.com/watch?v=mAdKgzuVuzM - Onmyoji Arena (Kikyo) - 06/03/2023
 https://www.youtube.com/watch?v=7o4DN6yy2JU - ARENA OF VALOR - RANKED - 06/02/2023
 https://www.youtube.com/watch?v=ZYODlfuAxM8 - ONMYOJI ARENA - HONE ONNA (RANKED) - 04/01/2023
 https://www.youtube.com/watch?v=r8a9uutb4bU - ONMYOJI ARENA - MOMIJI (RANKED) - 21/12/2022
+
+
+DIBAWAH INI ADALAH PLAYLIST SAMPLE RYUKO TUTORIAL
+LIST TUTORIAL EDITING
+https://www.youtube.com/watch?v=YMP24xmiWfI - LUMA KEY SIMPLE USING FILMORA AND AFFINITY PHOTO 08/02/2023
+https://www.youtube.com/watch?v=n_Cm7ApSDV8 - AFTER EFFECT CC 2020 - CREATE ANIMATION HOST BAR 13/01/2023
+https://www.youtube.com/watch?v=1BRXXxX7X2I - AFTER EFFECT CC 2020 - ANIMATION SEARCH BAR 30/12/2022
+https://www.youtube.com/watch?v=PZ4N5w7z9Uc - AFTER EFFECT CC 2020 - ANIMATION TEXT WATTER FILLING 09/12/2022
+https://www.youtube.com/watch?v=9O4Q5QW3vx0 - ICON ANIMATION (After Effect) 21/09/2022
+https://www.youtube.com/watch?v=R5k6yXJ1OP8 - NEON TEXT ANIMATION (After Effect) 07/09/2022
+
+LIST TUTORIAL NETWORKING
+https://www.youtube.com/watch?v=DahcySuBqp8 - CISCO PACKET TRACER - Studi Konfigurasi EIGRP dan DNS 24/02/2023
+https://www.youtube.com/watch?v=YIVUZkfVNxw - CISCO PACKET TRACER - Virtual Trunking Protocol (VTP) 27/01/2023
+https://www.youtube.com/watch?v=rN1NVLEUA3Y - CISCO PACKET TRACER - SET EMAIL 14/12/2022
+https://www.youtube.com/watch?v=CRZcD4VV7ag - ROUTING EIGRP - CISCO PACKET TRACER 30/11/2022
+https://www.youtube.com/watch?v=hOATjQgOYuQ - SETTING DHCP AND DNS IN CISCO PACKET TRACER 09/11/2022
+https://www.youtube.com/watch?v=mdVJzWHni54 - VIRTUALBOX INSTALLATION DEBIAN 11 09/09/2022
+
+LIST TUTORIAL PROGRAMMING
+https://www.youtube.com/watch?v=RYg8j1f1VRg - Code Programming - JavaScript Basic 03/09/2022
+https://www.youtube.com/watch?v=3FFC23JwvA8 - Background Image - FIlter (HTML&CSS) 16/05/2022
+https://www.youtube.com/watch?v=mWn1jf0wt5A - HTML Dasar atau Basic (Part 7) 15/01/2020
+https://www.youtube.com/watch?v=lE-QCvoiKK0 - HTML Dasar atau Basic (Part 6) 13/01/2020
+https://www.youtube.com/watch?v=AaexFQ-CTU8 - HTML Dasar atau Basic (Part 5) 30/05/2020
+https://www.youtube.com/watch?v=v-MTfY0DMJ0 - HTML Dasar atau Basic (Part 4) 27/05/2020
