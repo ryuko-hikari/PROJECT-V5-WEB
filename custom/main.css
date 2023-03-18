@@ -15,6 +15,169 @@ p::selection{
 	color: #fff;
 }
 
+
+/*start responsive device*/
+/*responsive design for mobile or small device*/
+	@media only screen and (max-width: 600px){
+	html{
+		margin: 0;
+		padding: 0;
+	}	
+
+/*	header section responsive*/
+	.custom-nav{
+		font-size: 4vw !important;
+	}
+	.text-support{
+		width: 50%;
+		margin: 0px;
+	}
+/*	end header section responsive*/
+
+/*	content section responsive*/
+	.content{
+		width: 100%;
+		height: 120rem;
+		background-position: center;
+		transition: 0.8s;
+	}
+	.content:hover{
+		transition: 0.8s;
+	}
+	/*	update, diskon and chat customer section section*/
+	.bg-content-custom-1{
+		width: 100%;
+		height: 100%;
+	}
+	.link-custom{
+		color: #fff;
+		text-decoration: none;
+		margin-left: -20px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+/*	update, diskon and chat customer section end*/
+
+	/*	main content*/
+	.bg-content-custom-2{
+		height: 100%;
+		min-height: auto;
+		overflow-y: unset;
+		overflow-x: unset;
+	}
+/*	end content section resposive*/
+
+/*	footer section responsive*/
+	.footer{
+		width: 100%;
+		height: auto;
+	}
+	.email-text-custom{
+		font-size: 1rem;
+	}
+	.custom-copyright{
+		font-size: 4vw;
+		text-align: center;
+	}
+}
+/*	end footer section responsive*/
+/*end responsive design for mobile or small device*/
+
+
+/*responsive design for tablet or ipad*/
+	@media only screen and (min-width: 768px){
+	html{
+		margin: 0;
+		padding: 0;
+	}	
+
+/*	header section responsive*/
+	.header{
+		width: 100%;
+	}
+	.custom-nav{
+		font-size: 2.5vw !important;
+	}
+	.text-support{
+		width: 50%;
+		margin: 0px;
+	}
+/*	end header section responsive*/
+
+/*	content section responsive*/
+	.content{
+		width: 100%;
+		height: 1800px;
+		min-height: 4500px;
+		background-position: center;
+		transition: 0.8s;
+	}
+	.content:hover{
+		transition: 0.8s;
+	}
+	/*	update, diskon and chat customer section section*/
+	.bg-content-custom-1{
+		width: 100%;
+		height: 100%;
+	}
+	.link-custom{
+		color: #fff;
+		text-decoration: none;
+		margin-left: -20px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+/*	update, diskon and chat customer section end*/
+
+	/*	main content*/
+	.bg-content-custom-2{
+		height: 100%;
+		min-height: auto;
+		overflow-y: unset;
+		overflow-x: unset;
+	}
+/*	end content section resposive*/
+
+/*	footer section responsive*/
+	.footer{
+		width: 100%;
+		height: auto;
+	}
+	.email-text-custom{
+		font-size: 13px;
+	}
+	.custom-copyright{
+		font-size: 30px;
+		text-align: center;
+	}
+}
+/*	end footer section responsive*/
+/*end responsive design for tablet or ipad*/
+
+/*large device laptop or desktop*/
+	@media only screen and (min-width: 992px){
+/*  header section responsive*/
+	.custom-nav{
+		font-size: 1vw !important;
+	}
+/*	content section responsive*/
+	.content{
+		width: 100%;
+		height: auto;
+		background-image: url('../Assets/icon-bg-none.png');
+		background-size: 100% 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.email-text-custom{
+		font-size: 13px;
+	}
+}
+/*end large device laptop or desktop*/
+/*end section responsive device*/
+
+
 /*header section*/
 	.header{
 		width: 100%;
@@ -71,7 +234,7 @@ p::selection{
 	.bg-content-custom-1{
 		width: 100%;
 		height: 100%;
-/*		font-family: 'Verdana';*/
+		font-family: 'Verdana';
 		background: rgba(75, 75, 75, 0.87);
 		box-shadow: 0px 3px 10px 1px #000;
 		transition: 1s;
@@ -389,165 +552,3 @@ p::selection{
 	.custom-copyright{
 		font-size: 20px;
 	}
-
-
-/*start responsive device*/
-/*responsive design for mobile or small device*/
-	@media only screen and (max-width: 600px){
-	html{
-		margin: 0;
-		padding: 0;
-	}	
-
-/*	header section responsive*/
-	.custom-nav{
-		font-size: 4vw !important;
-	}
-	.text-support{
-		width: 50%;
-		margin: 0px;
-	}
-/*	end header section responsive*/
-
-/*	content section responsive*/
-	.content{
-		width: 100%;
-		height: 120rem;
-		background-position: center;
-		transition: 0.8s;
-	}
-	.content:hover{
-		transition: 0.8s;
-	}
-	/*	update, diskon and chat customer section section*/
-	.bg-content-custom-1{
-		width: 100%;
-		height: 100%;
-	}
-	.link-custom{
-		color: #fff;
-		text-decoration: none;
-		margin-left: -20px;
-		margin-top: 10px;
-		padding: 5px;
-	}
-/*	update, diskon and chat customer section end*/
-
-	/*	main content*/
-	.bg-content-custom-2{
-		height: 100%;
-		min-height: auto;
-		overflow-y: unset;
-		overflow-x: unset;
-	}
-/*	end content section resposive*/
-
-/*	footer section responsive*/
-	.footer{
-		width: 100%;
-		height: auto;
-	}
-	.email-text-custom{
-		font-size: 1rem;
-	}
-	.custom-copyright{
-		font-size: 4vw;
-		text-align: center;
-	}
-}
-/*	end footer section responsive*/
-/*end responsive design for mobile or small device*/
-
-
-/*responsive design for tablet or ipad*/
-	@media only screen and (min-width: 768px){
-	html{
-		margin: 0;
-		padding: 0;
-	}	
-
-/*	header section responsive*/
-	.header{
-		width: 100%;
-	}
-	.custom-nav{
-		font-size: 2.5vw !important;
-	}
-	.text-support{
-		width: 50%;
-		margin: 0px;
-	}
-/*	end header section responsive*/
-
-/*	content section responsive*/
-	.content{
-		width: 100%;
-		height: 1800px;
-		min-height: 4500px;
-		background-position: center;
-		transition: 0.8s;
-	}
-	.content:hover{
-		transition: 0.8s;
-	}
-	/*	update, diskon and chat customer section section*/
-	.bg-content-custom-1{
-		width: 100%;
-		height: 100%;
-	}
-	.link-custom{
-		color: #fff;
-		text-decoration: none;
-		margin-left: -20px;
-		margin-top: 10px;
-		padding: 5px;
-	}
-/*	update, diskon and chat customer section end*/
-
-	/*	main content*/
-	.bg-content-custom-2{
-		height: 100%;
-		min-height: auto;
-		overflow-y: unset;
-		overflow-x: unset;
-	}
-/*	end content section resposive*/
-
-/*	footer section responsive*/
-	.footer{
-		width: 100%;
-		height: auto;
-	}
-	.email-text-custom{
-		font-size: 13px;
-	}
-	.custom-copyright{
-		font-size: 30px;
-		text-align: center;
-	}
-}
-/*	end footer section responsive*/
-/*end responsive design for tablet or ipad*/
-
-/*large device laptop or desktop*/
-	@media only screen and (min-width: 992px){
-/*  header section responsive*/
-	.custom-nav{
-		font-size: 1.2vw !important;
-	}
-/*	content section responsive*/
-	.content{
-		width: 100%;
-		height: auto;
-		background-image: url('../Assets/icon-bg-none.png');
-		background-size: 100% 100%;
-	}
-	.footer{
-		width: 100%;
-	}
-	.email-text-custom{
-		font-size: 13px;
-	}
-}
-/*end large device laptop or desktop*/
-/*end section responsive device*/
