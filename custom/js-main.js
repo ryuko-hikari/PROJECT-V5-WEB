@@ -93,4 +93,4 @@ var btnProduktif = document.getElementsByClassName("btn-produktif");
 //Alert Development for list gameplay
 	function btnAlert(){
 		alert("Masih Tahap Development >_<");
-	} 
+	}
