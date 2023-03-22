@@ -18,15 +18,14 @@ console.log(result.timeZone + result.message);
 //copyright year
 var yearNow = new Date();
 let yearCopy = yearNow.getFullYear();
-	document.getElementById("year-footer").innerHTML = yearCopy;
+	document.getElementById("year-footer").innerHTML = "2020 - " + yearCopy;
 
 //disable f12
-// document.onkeydown = function (e) {
-// 	if(e.keyCode == 123){
-// 		return false;
-// 	}
-// }
-
+document.onkeydown = function (e) {
+	if(e.keyCode == 123){
+		return false;
+	}
+}
 
 //Dibawah ini adalah Datalist Produk pada page produk
 //Stock Unit GooglePlay Card
