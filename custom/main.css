@@ -523,6 +523,9 @@ p::selection{
 		color: #fff;
 		font-size: 15px;
 	}
+	.calendarImg, .calendarImgHome{
+		cursor: pointer;
+	}
 	.fa-custom-yt{
 		color: rgba(255, 45, 69, 0.8);
 	}
