@@ -215,7 +215,7 @@ p::selection{
 		width: 100%;
 		min-height: 1390px;
 		background-color: rgba(39, 41, 245, 0.8);
-		background-image: url('../Assets/icon-bg.png');
+		background-image: url('../../Assets/icon-bg.png');
 		background-size: auto;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -225,7 +225,7 @@ p::selection{
 	}
 	.content:hover{
 		background-color: rgba(14, 17, 237, 0.8);
-		background-image: url('../Assets/icon-bg-hover.png');
+		background-image: url('../../Assets/icon-bg-hover.png');
 		background-size: auto;
 		transition: 0.8s;
 	}
