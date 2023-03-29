@@ -21,11 +21,11 @@ let yearCopy = yearNow.getFullYear();
 	document.getElementById("year-footer").innerHTML = "2020 - " + yearCopy;
 
 //disable f12
-// document.onkeydown = function (e) {
-// 	if(e.keyCode == 123){
-// 		return false;
-// 	}
-// }
+document.onkeydown = function (e) {
+	if(e.keyCode == 123){
+		return false;
+	}
+}
 
 //Alert Development for list gameplay
 	function btnAlert(){
