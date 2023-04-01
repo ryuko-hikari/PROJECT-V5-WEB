@@ -5,9 +5,9 @@ var productAvaible = [1,2,3,4,5,6,7,8,9,10];
 var productNotAvaible = [0];
 var productBody =  document.getElementsByClassName('text-stok');
 	// list stok GPC
-	productBody[0].innerHTML = productText[0] + productAvaible[1];
-	productBody[1].innerHTML = productText[0] + productAvaible[1];
-	productBody[2].innerHTML = productText[0] + productAvaible[1];
+	productBody[0].innerHTML = productText[0] + productNotAvaible[0];
+	productBody[1].innerHTML = productText[0] + productNotAvaible[0];
+	productBody[2].innerHTML = productText[0] + productNotAvaible[0];
 	productBody[3].innerHTML = productText[0] + productAvaible[4];
 	productBody[4].innerHTML = productText[0] + productAvaible[4];
 	productBody[5].innerHTML = productText[0] + productAvaible[4];
@@ -25,12 +25,12 @@ var productBody =  document.getElementsByClassName('text-stok');
 // Button List Below
 // Stock Unit GooglePlay Card Button
 var btnGpc = document.getElementsByClassName("btn-gpc");
-	// btnGpc[0].innerHTML = "STOK KOSONG";
-	// btnGpc[0].style.fontSize = "23px";
-	// btnGpc[1].innerHTML = "STOK KOSONG";
-	// btnGpc[1].style.fontSize = "23px";
-	// btnGpc[2].innerHTML = "STOK KOSONG";
-	// btnGpc[2].style.fontSize = "23px";
+	btnGpc[0].innerHTML = "STOK KOSONG";
+	btnGpc[0].style.fontSize = "23px";
+	btnGpc[1].innerHTML = "STOK KOSONG";
+	btnGpc[1].style.fontSize = "23px";
+	btnGpc[2].innerHTML = "STOK KOSONG";
+	btnGpc[2].style.fontSize = "23px";
 	// btnStockGpc[3].innerHTML = "STOK KOSONG";
 	// btnStockGpc[3].style.fontSize = "23px";
 	// btnStockGpc[4].innerHTML = "STOK KOSONG";
