@@ -33,7 +33,7 @@ document.onkeydown = function (e) {
 	}
 //kalendar gambar khusus halaman home
 	var imgCalendarHome = document.createElement("img");
-		imgCalendarHome.setAttribute("src", "Assets/kalendar/maret.png");
+		imgCalendarHome.setAttribute("src", "Assets/kalendar/calendar.png");
 		imgCalendarHome.setAttribute("width", "250");
 		imgCalendarHome.setAttribute("heiht", "120");
 		imgCalendarHome.setAttribute("alt", "Ryuko Network Center - Calendar");
