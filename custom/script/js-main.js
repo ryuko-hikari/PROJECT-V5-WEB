@@ -31,11 +31,3 @@ document.onkeydown = function (e) {
 	function btnAlert(){
 		alert("Masih Tahap Development >_<");
 	}
-//kalendar gambar khusus halaman home
-	var imgCalendarHome = document.createElement("img");
-		imgCalendarHome.setAttribute("src", "Assets/kalendar/calendar.png");
-		imgCalendarHome.setAttribute("width", "250");
-		imgCalendarHome.setAttribute("heiht", "120");
-		imgCalendarHome.setAttribute("alt", "Ryuko Network Center - Calendar");
-		imgCalendarHome.setAttribute("title", "Ryuko Network Center - Calendar");
-		document.querySelector('.calendarImgHome').appendChild(imgCalendarHome);
