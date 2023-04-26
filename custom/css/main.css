@@ -566,3 +566,19 @@ p::selection{
 	.custom-copyright{
 		font-size: 20px;
 	}
+	.calendarImgHome{
+		box-shadow: 0px 0px 100px 1px #fff;
+		transition: 0.8s;
+	}
+	.calendarImgHome:hover{
+		box-shadow: 0px 1px 100px 1px #7F00FF;
+		transition: 0.8s;
+	}
+	.calendarImg{
+		box-shadow: 0px 0px 100px 1px #fff;
+		transition: 0.8s;
+	}
+	.calendarImg:hover{
+		box-shadow: 0px 1px 100px 1px #7F00FF;
+		transition: 0.8s;
+	}
