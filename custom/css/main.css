@@ -6,7 +6,7 @@ html{
 body{
 	padding: 0;
 	margin: 0;
-	background-color: #20262E;
+	background-color: #0c6ef0;
 	font-family: 'Verdana' !important;
 	scroll-behavior: smooth;
 }
@@ -511,10 +511,12 @@ p::selection{
 	.icon-custom-footer{
 		cursor: pointer;
 		filter:  drop-shadow(-1px 2px #fff);
+		transform: skew(2deg);
 		transition: 0.9s;
 	}
 	.icon-custom-footer:hover{
 		filter:  drop-shadow(-1px 2px darkred);
+		transform: rotateY(180deg);
 		transition: 0.9s;
 	}
 	.list-sosmed-custom{
