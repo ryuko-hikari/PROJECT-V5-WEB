@@ -31,3 +31,10 @@ document.onkeydown = function (e) {
 	function btnAlert(){
 		alert("Masih Tahap Development >_<");
 	}
+
+//link for page
+	let linkPage = document.getElementsByClassName("btn-link");
+		linkPage[0].href = "product/index.html";
+		linkPage[1].href = "news/index.html";
+		linkPage[2].href = "gameplay/index.html";
+		linkPage[3].href = "tutorial/index.html";
