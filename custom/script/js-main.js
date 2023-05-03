@@ -27,14 +27,15 @@ document.onkeydown = function (e) {
 	}
 }
 
-//Alert Development for list gameplay
+//Alert Development
 	function btnAlert(){
 		alert("Masih Tahap Development >_<");
 	}
 
-//link for page
+//link for page content
 	let linkPage = document.getElementsByClassName("btn-link");
 		linkPage[0].href = "product/index.html";
 		linkPage[1].href = "news/index.html";
 		linkPage[2].href = "gameplay/index.html";
 		linkPage[3].href = "tutorial/index.html";
+		linkPage[4].href = "https://e-learning.ryukonetworkcenter.com";
