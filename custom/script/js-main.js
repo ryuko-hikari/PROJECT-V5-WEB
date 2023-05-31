@@ -28,9 +28,9 @@ let yearCopy = yearNow.getFullYear();
 // }
 
 //Alert Development
-	function btnAlert(){
-		alert("Masih Tahap Development >_<");
-	}
+	// function btnAlert(){
+	// 	alert("Masih Tahap Development >_<");
+	// }
 
 //link for page content in page home
 	let linkPage = document.getElementsByClassName("btn-link");
@@ -38,4 +38,4 @@ let yearCopy = yearNow.getFullYear();
 		linkPage[1].href = "news/index.html";
 		linkPage[2].href = "gameplay/index.html";
 		linkPage[3].href = "tutorial/index.html";
-		linkPage[4].href = "https://e-learning.ryukonetworkcenter.com";
+		linkPage[4].href = "https://e-learning.ryukonetworkcenter.com";	
