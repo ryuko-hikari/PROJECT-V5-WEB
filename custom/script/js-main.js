@@ -1,20 +1,3 @@
-//dibawah ini adalah code untuk seluruh page
-var ver = ["Ini adalah versi", 5];
-console.log(ver[0]  + ' ' + ver[1]);
-
-class Waktu{
-	constructor(){
-	this.timeZone = new Date();
-	this.message = "This Time Now";
-	}
-}
-var result = new Waktu();
-console.log(result.timeZone + result.message);
-
-//pop up
-// var popUp = "Masih Tahap Pengembangan";
-// 	alert(popUp + ' ' + ver[1]);
-
 //copyright year
 var yearNow = new Date();
 let yearCopy = yearNow.getFullYear();
@@ -38,11 +21,3 @@ let yearCopy = yearNow.getFullYear();
 		linkPage[1].href = "news/index.html";
 		linkPage[2].href = "gameplay/index.html";
 		linkPage[3].href = "tutorial/index.html";
-
-//hidden content product
- function myToggle(){
- 	var contents = document.getElementsByClassName("content-item");
- 	 for (var i = 0; i < contents.length; i++) {
- 		contents[i].classList.toggle("hidden");
- 	}
- }		
