@@ -18,6 +18,5 @@ let yearCopy = yearNow.getFullYear();
 //link for page content in page home
 	let linkPage = document.getElementsByClassName("btn-link");
 		linkPage[0].href = "product/index.html";
-		linkPage[1].href = "news/index.html";
-		linkPage[2].href = "gameplay/index.html";
-		linkPage[3].href = "tutorial/index.html";
+		linkPage[1].href = "gameplay/index.html";
+		linkPage[2].href = "tutorial/index.html";
