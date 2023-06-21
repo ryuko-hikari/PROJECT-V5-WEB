@@ -14,7 +14,7 @@ var textDiscount = document.getElementsByClassName("discount-text");
 
 //link for update any content in website
 var linkUpdate = document.getElementsByClassName('link-custom');
-	linkUpdate[0].href = "../../../index.html";
+	linkUpdate[0].href = "#";
 	linkUpdate[1].href = "#";	
 	linkUpdate[2].href = "#";	
 	linkUpdate[3].href = "#";	
