@@ -14,9 +14,3 @@ let yearCopy = yearNow.getFullYear();
 	function btnAlert(){
 		alert("Masih Tahap Development >_<");
 	}
-
-//link for page content in page home
-	let linkPage = document.getElementsByClassName("btn-link");
-		linkPage[0].href = "product/index.html";
-		linkPage[1].href = "gameplay/index.html";
-		linkPage[2].href = "tutorial/index.html";

@@ -1,9 +1,9 @@
 //text for update any content in website 
 var textUpdate = document.getElementsByClassName("update-text");
-	textUpdate[0].innerHTML = " New Update Coming Soon";
-	textUpdate[1].innerHTML = " New Update Coming Soon";
-	textUpdate[2].innerHTML = " New Update Coming Soon";
-	textUpdate[3].innerHTML = " New Update Coming Soon";
+	textUpdate[0].innerHTML = " Selamat Hari Raya Idul Adha 1444H 29/06/2023";
+	textUpdate[1].innerHTML = " New UI For Ryuko Network Center 30/06/2023";
+	textUpdate[2].innerHTML = " New Gameplay RPG takt op. Symphony 30/06/2023";
+	textUpdate[3].innerHTML = " New Gameplay RPG Harry Potter: Magic Awakened™ 30/06/2023";
 	
 //text for discount any content product in website
 var textDiscount = document.getElementsByClassName("discount-text");
@@ -16,8 +16,8 @@ var textDiscount = document.getElementsByClassName("discount-text");
 var linkUpdate = document.getElementsByClassName('link-custom');
 	linkUpdate[0].href = "#";
 	linkUpdate[1].href = "#";	
-	linkUpdate[2].href = "#";	
-	linkUpdate[3].href = "#";	
+	linkUpdate[2].href = "https://ryukonetworkcenter.com/gameplay/rpg/1/index.html";	
+	linkUpdate[3].href = "https://ryukonetworkcenter.com/gameplay/rpg/1/index.html";	
 	linkUpdate[4].href = "#";	
 	linkUpdate[5].href = "#";	
 	linkUpdate[6].href = "#";

@@ -386,54 +386,7 @@ p::selection{
 		content: ' BUY VIA WA';
 		color: #000;
 	}
-	/*	btn for product buy via Itemku*/
-	.btn-custom-product-itemku{
-		font-size: 20px;
-		display: inline-block;
-		width: 50px;
-		white-space: nowrap;
-		text-decoration: none;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		background-color: rgba(21, 77, 255, 1);
-		color: #fff;
-		padding: 10px;
-		box-shadow: 0px 3px 10px 1px #000;
-		transition: 1s;
-	}
-	.btn-custom-product-itemku:hover{
-		width: 235px;
-		color: #fff;
-		transition: 1s;
-		box-shadow: 0px 3px 10px 1px #00AEFF;
-	}
-	.btn-custom-product-itemku::after{
-		content: ' BUY VIA Itemku';
-	}
-/*	btn for news*/
-	.btn-custom-news{
-		font-size: 20px;
-		display: inline-block;
-		width: 50px;
-		white-space: nowrap;
-		text-decoration: none;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		background-color: rgba(21, 77, 255, 1);
-		color: #fff;
-		padding: 10px;
-		box-shadow: 0px 3px 10px 1px #000;
-		transition: 1s;
-	}
-	.btn-custom-news:hover{
-		width: 290px;
-		color: #fff;
-		transition: 1s;
-		box-shadow: 0px 3px 10px 1px #00AEFF;
-	}
-	.btn-custom-news::after{
-		content: 'BACA SELENGKAPNYA';
-	}
+	
 /*	btn for gameplay*/
 	.btn-custom-gameplay{
 		font-size: 20px;
@@ -458,6 +411,7 @@ p::selection{
 	.btn-custom-gameplay::after{
 		content: 'GO WATCH GAMEPLAY';
 	}
+
 /*	btn for tutorial*/
 	.btn-custom-tutorial{
 		font-size: 20px;
@@ -482,6 +436,7 @@ p::selection{
 	.btn-custom-tutorial::after{
 		content: 'GO WATCH TUTORIAL';
 	}
+	
 /*	btn for e-learning*/
 	.btn-custom-learning{
 		font-size: 20px;
